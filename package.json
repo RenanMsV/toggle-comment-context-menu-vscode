@@ -1,0 +1,59 @@
+{
+    "name": "toggle-comment-context-menu",
+    "displayName": "Toggle Comment Context Menu",
+    "description": "Adds a right-click context menu entry to toggle line comments",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "publisher": "Renan-MsV",
+    "author": "RenanMsV",
+    "icon": "./icon.png",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/RenanMsV/toggle-comment-context-menu-vscode/issues",
+        "email": "none@none.none"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RenanMsV/toggle-comment-context-menu-vscode.git"
+    },
+    "homepage": "https://github.com/RenanMsV/toggle-comment-context-menu-vscode",
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "comment",
+        "toggle",
+        "context menu",
+        "right click",
+        "editor",
+        "line comment",
+        "toggle comment",
+        "vscode extension",
+        "code editing",
+        "programming",
+        "shortcuts"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "menus": {
+            "editor/context": [
+                {
+                    "command": "editor.action.commentLine",
+                    "when": "editorTextFocus",
+                    "group": "editing@100"
+                }
+            ]
+        },
+        "commands": [
+            {
+                "command": "editor.action.commentLine",
+                "title": "Toggle Comment"
+            }
+        ]
+    },
+    "devDependencies": {
+        "@vscode/vsce": "^3.3.2"
+    }
+}

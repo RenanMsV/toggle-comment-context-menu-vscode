@@ -1,0 +1,9 @@
+# Toggle Comment Context Menu for Visual Studio Code
+
+[![logo](./icon.png?raw=true)](https://github.com/RenanMsV/toggle-comment-context-menu-vscode)
+
+[![Version](https://img.shields.io/visual-studio-marketplace/v/Renan-MsV.toggle-comment-context-menu-vscode.svg?logo=visual%20studio%20code)](https://marketplace.visualstudio.com/items?itemName=Renan-MsV.toggle-comment-context-menu-vscode) [![Rating](https://img.shields.io/visual-studio-marketplace/stars/Renan-MsV.toggle-comment-context-menu-vscode.svg?logo=visual%20studio%20code)](https://marketplace.visualstudio.com/items?itemName=Renan-MsV.toggle-comment-context-menu-vscode) [![Downloads](https://img.shields.io/visual-studio-marketplace/d/Renan-MsV.toggle-comment-context-menu-vscode.svg?logo=visual%20studio%20code)](https://marketplace.visualstudio.com/items?itemName=Renan-MsV.toggle-comment-context-menu-vscode) [![Build Status](https://img.shields.io/travis/com/RenanMsV/toggle-comment-context-menu-vscode?logo=travis)](https://travis-ci.com/RenanMsV/toggle-comment-context-menu-vscode) [![GNU General Public License](https://img.shields.io/github/license/RenanMsV/toggle-comment-context-menu-vscode?logo=github)](http://www.gnu.org/licenses/gpl-3.0.en.html)
+
+This VS Code extension adds a right-click context menu item in the editor to toggle line comments.
+
+It simply binds the existing `editor.action.commentLine` command to the editor context menu.

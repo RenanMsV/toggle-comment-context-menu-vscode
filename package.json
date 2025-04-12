@@ -35,7 +35,6 @@
         "programming",
         "shortcuts"
     ],
-    "main": "./extension.js",
     "contributes": {
         "menus": {
             "editor/context": [

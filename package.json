@@ -2,7 +2,7 @@
     "name": "toggle-comment-context-menu",
     "displayName": "Toggle Comment Context Menu",
     "description": "Adds a right-click context menu entry to toggle line comments",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "engines": {
         "vscode": "^1.0.0"
     },

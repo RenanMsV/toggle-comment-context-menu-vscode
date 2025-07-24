@@ -51,8 +51,5 @@
                 "title": "Toggle Comment"
             }
         ]
-    },
-    "devDependencies": {
-        "@vscode/vsce": "^3.3.2"
     }
 }

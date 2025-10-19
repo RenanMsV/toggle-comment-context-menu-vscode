@@ -9,8 +9,7 @@
 [![GNU General Public License](https://img.shields.io/github/license/RenanMsV/toggle-comment-context-menu-vscode?logo=github)](http://www.gnu.org/licenses/gpl-3.0.en.html)
 
 [![Install from VS Marketplace](https://img.shields.io/badge/Install-VS%20Marketplace-blue?style=for-the-badge&logo=vs-code)](https://marketplace.visualstudio.com/items?itemName=Renan-MsV.toggle-comment-context-menu)  
-[![Install from Open VSX](https://img.shields.io/badge/Install-Open%20VSX-purple?style=for-the-badge&logo=vs-code
-)](https://open-vsx.org/extension/Renan-MsV/toggle-comment-context-menu)
+[![Install from Open VSX](https://img.shields.io/badge/Install-Open%20VSX-purple?style=for-the-badge&logo=vs-code)](https://open-vsx.org/extension/Renan-MsV/toggle-comment-context-menu)
 
 This VS Code extension adds a right-click context menu item in the editor to toggle line comments.
 
